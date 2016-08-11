@@ -6,17 +6,39 @@ body {
 }
 .calculator {
   display: inline-block;
-  height: 500px;
+  height: 350px;
   width: 300px;
-  background-color: rgb(76, 183, 44);;
-  font-size: 30px;
-  padding: 3px, 20px, 20px, 5px;
+  background-color: rgb(76, 183, 44);
+  font-family: helvetica;
+  font-weight: lighter;
 }
 
 .result {
-  width: 285px;
-  height: 40px;
+  width: 200px;
+  height: 60px;
   border: 1px solid grey;
-  float: left;
-  line-height: 40px;
+  float: right;
+  line-height: 60px;
 }
+
+.keys {
+  font-size: 40px;
+  float: left;
+  color: white;
+}
+
+span {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.clear {
+  height: 60px;
+  width: 60px;
+  font-size: 40px;
+  color: white;
+  padding-left: 15px;
+  background-color: inherit;
