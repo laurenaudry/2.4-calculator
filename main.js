@@ -1,10 +1,18 @@
 document.addEventListener("DOMContentLoaded", function(){
-  var buttons = document.querySelectorAll(".button"),
-      result = document.querySelector('.result')[0],
-      clear = document.getElementsByClassName('clear')[0];
-)};
+  var button = document.querySelectorAll(".button");
+  var result = document.querySelector(".result");
+  var clear = document.querySelector(".clear");
 
-  button.forEach(function(numButton){
-    numButton.addEventListener("click", function(e){
-      
-  }
+
+
+ button.forEach(function(numButton){
+   numButton.addEventListener("click", function(e){
+     var number = e.target.textContent;
+     result.textContent += number;
+   });
+ });
+
+ clear.addEventListener("click", function(e){
+   result.textContent = "";
+  });
+});

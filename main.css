@@ -1,9 +1,11 @@
 * {
   box-sizing: border-box;
 }
-body {
+
+/*body {
   font-size: 0;
-}
+}*/
+
 .calculator {
   display: inline-block;
   height: 350px;
@@ -14,11 +16,13 @@ body {
 }
 
 .result {
-  width: 200px;
+  width: 250px;
   height: 60px;
-  border: 1px solid grey;
   float: right;
   line-height: 60px;
+  font-size: 40px;
+  text-align: right;
+  color: white;
 }
 
 .keys {
@@ -27,7 +31,7 @@ body {
   color: white;
 }
 
-span {
+.button {
   display: inline-block;
   height: 60px;
   width: 60px;
@@ -42,3 +46,4 @@ span {
   color: white;
   padding-left: 15px;
   background-color: inherit;
+}
