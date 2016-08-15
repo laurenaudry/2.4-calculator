@@ -2,48 +2,59 @@
   box-sizing: border-box;
 }
 
-/*body {
+body {
   font-size: 0;
-}*/
+}
 
 .calculator {
-  display: inline-block;
-  height: 350px;
+  height: 325px;
   width: 300px;
-  background-color: rgb(76, 183, 44);
+  background-color: rgb(104, 178, 91);
   font-family: helvetica;
   font-weight: lighter;
+  padding: 0;
 }
 
 .result {
   width: 250px;
   height: 60px;
+  color: white;
+  overflow: hidden;
+  padding: 0;
   float: right;
   line-height: 60px;
   font-size: 40px;
   text-align: right;
-  color: white;
+  border: 1px solid white;
 }
 
 .keys {
-  font-size: 40px;
-  float: left;
+  font-size: 30px;
   color: white;
+  padding: 0;
 }
 
 .button {
   display: inline-block;
-  height: 60px;
-  width: 60px;
   text-align: center;
-  line-height: 60px;
+  line-height: 70px;
+  border: 1px solid white;
+  height: 65px;
+  width: 65px;
+  padding: 0;
+  margin: 0;
 }
 
 .clear {
   height: 60px;
   width: 60px;
-  font-size: 40px;
+  font-size: 30px;
   color: white;
+  border: 1px solid white;
   padding-left: 15px;
   background-color: inherit;
+}
+
+.operator {
+  color: rgb (130, 192, 120);
 }
